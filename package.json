@@ -1,20 +1,20 @@
 {
-    "name": "LuminariaLauncher",
-    "preductname": "Luminaria Launcher",
-    "version": "2.0.9",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "name": "LuminariaLauncherCobblemon",
+    "preductname": "Luminaria Launcher Cobblemon",
+    "version": "2.0.11",
+    "description": "Launcher Mincraft pour le serveur Cobblemon Luminaria",
     "main": "src/app.js",
     "author": {
         "name": "luuxis, Inc.",
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
-    "url": "https://playluminaria.fr/launcher",
+    "url": "https://playluminaria.fr/launchercobblemon",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://i.imgur.com/8a9Dz8l.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/MrMister789/LuminariaLauncher.git"
+        "url": "git+https://github.com/MrMister789/LuminariaLauncherCobblemon.git"
     }
 }
