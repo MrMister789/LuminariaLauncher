@@ -1,7 +1,7 @@
 {
     "name": "LuminariaLauncherEarth",
     "preductname": "Luminaria Launcher Earth",
-    "version": "2.0.13",
+    "version": "2.0.14",
     "description": "Launcher Mincraft pour le serveur Earth Luminaria",
     "main": "src/app.js",
     "author": {
@@ -9,7 +9,7 @@
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
-    "url": "https://playluminaria.fr/launcherearth",
+    "url": "https://launcher.playluminaria.fr/launcherearth",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
